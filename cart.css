@@ -1,0 +1,19 @@
+#cartContainer{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    gap: 20px;
+    justify-content: center;
+}
+
+.cart-item{
+    border: 1px solid gray;
+    padding: 20px;
+    background-color: gray;
+}
+.remove-btn{
+    background-color: red;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: red;
+}
